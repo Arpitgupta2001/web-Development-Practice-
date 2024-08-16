@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <!-- text input -->
+        <label >
+            Username
+            <input type="text" placeholder="Enter your name"> 
+        </label>
+        <br>
+        <!-- password text -->
+        <label >
+            password
+            <input type="password" placeholder="Enter your password"> 
+        </label>
+        <br>
+        <!-- number input -->
+        Number
+        <input type="number"> 
+        <!-- input time -->
+        <br>
+        Time
+        <input type="time">
+        color
+        <input type="color">
+    </form>
+
+    <form>
+       
+
+       <div>
+        <label for="password">Enter your password:</label>
+        <input type="text" id = "password" placeholder="password">
+       </div>
+
+       <div>
+        <label for="age">Enter your age:</label>
+       <input type="number" id = "age" placeholder="age">
+       </div>
+      
+
+    </form>
+
+    <!-- buttons -->
+    <form action="/server">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+        <input type="submit" value = "click me">
+    </form>
+
+    <!-- name attribute to send the info to the server -->
+    <form action="/server">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" placeholder="enter username" id = "username" name = "username">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" placeholder = "enter password" id = "password" name="password">
+        </div>
+        <button>submit</button>
+    </form>
+    <hr>
+    <!-- for youtube button -->
+     <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query" />
+        <button>search</button>
+     </form>
+    
+     <!-- for google search -->
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="search in google" name="q"/>
+        <button>search</button>
+    </form>
+
+
+    <!-- check box -->
+     <label for="age">Are you 18 or above</label>
+     <input type="checkbox" name = "age" id = "age" checked>
+
+     <!-- radio button -->
+      <label for="gender">Select gender</label>
+      <input type="radio" name = "gender" id = "gender">Male
+      <input type="radio" name = "gender" id = "gender">Female
+
+      <button>button</button>
+
+</body>
+</html>

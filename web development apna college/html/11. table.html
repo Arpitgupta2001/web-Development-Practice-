@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Level 3</title>
+</head>
+<body>
+    <table border="black">
+        <caption><b>Student Table</b></caption>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Roll No</th>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Arpit Gupta</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Ayush Gupta</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Ayush Singh</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <!-- using sementics in table -->
+    <div>
+        <table border="black">
+            <caption><b>Food Menu</b></caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frooti</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Samosa</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Chips</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>32</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <!-- use of rowspan and colspan -->
+    <table border="black">
+        <caption><b>Food Menu</b></caption>
+        <thead>
+           <tr>
+            <th rowspan = "2">Item</th>
+            <th colspan = "2">Price</th>
+           </tr>
+            <tr>
+                <th><b>INR</b></th>
+                <th><b>USD</b></th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+                
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.17</td>
+                
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.26</td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
